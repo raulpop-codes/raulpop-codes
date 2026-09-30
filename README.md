@@ -48,7 +48,7 @@ A robust Java-based inventory management application featuring user session mana
 `Java` `MySQL` `Redis`
 
 **[Control Systems Visualization Tool](https://github.com/raul-pop-30123/Control-Systems-Visualization-Tool)**
-A C++ desktop application simulating control-system behavior — Root Locus and Nyquist plots — with real-time UI manipulation of proportional gain.
+A C++ desktop tool for analyzing linear control systems — Routh-Hurwitz stability, interactive root locus with a live gain slider, and step/impulse response.
 `C++`
 
 **[NoMoreQuiting](https://github.com/raul-pop-30123/NoMoreQuiting)**
