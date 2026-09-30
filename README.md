@@ -55,7 +55,7 @@ A C++ desktop tool for analyzing linear control systems — Routh-Hurwitz stabil
 A full-stack workout-logging app — custom categories, live session logging (sets/reps/weight), notifications, and a Founder/admin role system with audit logging. .NET 8 (DDD-layered) backend with MySQL + Redis, React/TypeScript/Vite frontend, deployed via Docker Compose behind Caddy with automatic HTTPS.
 `C#` `.NET` `React` `TypeScript` `MySQL` `Redis` `Docker`
 
-**[Microcontroller Firmware Distributor Database](https://github.com/raul-pop-30123/MicrocontrollerFirmDatabase)**
+**[Microcontroller Distributor Database](https://github.com/raul-pop-30123/MicrocontrollerFirmDatabase)**
 A relational MySQL database modeling a microcontroller distributor's sales and inventory pipeline. Normalized to 3NF across 17 tables, with strict schema-level data integrity (CHECK constraints, triggers) and analytical reporting views.
 `MySQL`
 
