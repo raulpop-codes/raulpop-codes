@@ -24,7 +24,6 @@ Automation and Applied Informatics student at the Technical University of Cluj-N
 **Frameworks & Libraries**
 
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 
 **Databases & Caching**
 
