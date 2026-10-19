@@ -20,6 +20,7 @@ Automation and Applied Informatics student at the Technical University of Cluj-N
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
 
 **Frameworks & Libraries**
 
@@ -36,7 +37,7 @@ Automation and Applied Informatics student at the Technical University of Cluj-N
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-*Also working with: Swing (Java UI), and MATLAB-style simulation concepts for control-system modeling.*
+*Also working with: Swing (Java UI), and Simulink for control-system modeling.*
 
 ---
 
@@ -57,6 +58,10 @@ A full-stack workout-logging app — custom categories, live session logging (se
 **[Microcontroller Distributor Database](https://github.com/raul-pop-30123/MicrocontrollerFirmDatabase)**
 A relational MySQL database modeling a microcontroller distributor's sales and inventory pipeline. Normalized to 3NF across 17 tables, with strict schema-level data integrity (CHECK constraints, triggers) and analytical reporting views.
 `MySQL`
+
+**[Active Suspension System Identification](https://github.com/raulpop-codes/active-suspension-system-identification)**
+A MATLAB/Simulink system identification project on an active suspension system — fitting a second-order model via linear regression on the damped response envelope, then validating state-space and transfer-function representations against filtered measured data. Built to grow with additional identification methods over time.
+`MATLAB` `Simulink`
 
 ---
 
