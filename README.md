@@ -1,7 +1,7 @@
 <h1 align="center">Hi there, I'm Raul 👋</h1>
 
 <p align="center">
-Automation and Applied Informatics student at the Technical University of Cluj-Napoca (UTCN), passionate about bridging the gap between hardware/control systems and robust software engineering. I enjoy building efficient desktop applications, backend systems, and exploring system simulations.
+Automation and Applied Informatics student at the Technical University of Cluj-Napoca (TUCN), passionate about bridging the gap between hardware/control systems and robust software engineering. I enjoy building efficient desktop applications, backend systems, and exploring system simulations.
 </p>
 
 <p align="center">
