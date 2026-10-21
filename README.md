@@ -51,7 +51,7 @@ A robust Java-based inventory management application featuring user session mana
 A C++ desktop tool for analyzing linear control systems — Routh-Hurwitz stability, interactive root locus with a live gain slider, and step/impulse response.
 `C++`
 
-**[NoMoreQuiting](https://github.com/raul-pop-30123/NoMoreQuiting)**
+**[NoMoreQuiting](https://github.com/raulpop-codes/NoMoreQuiting)**
 A full-stack workout-logging app — custom categories, live session logging (sets/reps/weight), notifications, and a Founder/admin role system with audit logging. .NET 8 (DDD-layered) backend with MySQL + Redis, React/TypeScript/Vite frontend, deployed via Docker Compose behind Caddy with automatic HTTPS.
 `C#` `.NET` `React` `TypeScript` `MySQL` `Redis` `Docker`
 
