@@ -59,7 +59,7 @@ A full-stack workout-logging app — custom categories, live session logging (se
 A relational MySQL database modeling a microcontroller distributor's sales and inventory pipeline. Normalized to 3NF across 17 tables, with strict schema-level data integrity (CHECK constraints, triggers) and analytical reporting views.
 `MySQL`
 
-**[Active Suspension System Identification](https://github.com/raulpop-codes/active-suspension-system-identification)**
+**[Active Suspension System Identification(In progress...)](https://github.com/raulpop-codes/active-suspension-system-identification)**
 A MATLAB/Simulink system identification project on an active suspension system — fitting a second-order model via linear regression on the damped response envelope, then validating state-space and transfer-function representations against filtered measured data. Built to grow with additional identification methods over time.
 `MATLAB` `Simulink`
 
