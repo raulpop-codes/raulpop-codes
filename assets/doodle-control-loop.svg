@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 128" width="320" height="128" fill="none">
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#3FB27F"/>
+    </marker>
+  </defs>
+
+  <!-- input -->
+  <path d="M 6 56 H 24" stroke="#3FB27F" stroke-width="2" stroke-linecap="round" marker-end="url(#ar)"/>
+  <text x="6" y="46" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#2A7D5A">r</text>
+
+  <!-- summing junction -->
+  <circle cx="42" cy="56" r="12" stroke="#3FB27F" stroke-width="2"/>
+  <path d="M 36 50 h 5 M 38.5 47.5 v 5" stroke="#3FB27F" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M 44 62 h 5" stroke="#3FB27F" stroke-width="1.6" stroke-linecap="round"/>
+
+  <!-- to controller -->
+  <path d="M 56 56 H 76" stroke="#3FB27F" stroke-width="2" stroke-linecap="round" marker-end="url(#ar)"/>
+
+  <!-- controller -->
+  <rect x="80" y="36" width="62" height="40" rx="8" stroke="#3FB27F" stroke-width="2"/>
+  <text x="111" y="61" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#3FB27F">C(s)</text>
+
+  <!-- to plant -->
+  <path d="M 142 56 H 166" stroke="#3FB27F" stroke-width="2" stroke-linecap="round" marker-end="url(#ar)"/>
+  <text x="148" y="46" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#2A7D5A">u</text>
+
+  <!-- plant -->
+  <rect x="170" y="36" width="62" height="40" rx="8" stroke="#3FB27F" stroke-width="2"/>
+  <text x="201" y="61" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#3FB27F">P(s)</text>
+
+  <!-- output -->
+  <path d="M 232 56 H 306" stroke="#3FB27F" stroke-width="2" stroke-linecap="round" marker-end="url(#ar)"/>
+  <text x="296" y="46" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#2A7D5A">y</text>
+  <circle cx="268" cy="56" r="3" fill="#3FB27F"/>
+
+  <!-- feedback -->
+  <path d="M 268 56 V 104 H 42 V 74" stroke="#2A7D5A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ar)"/>
+</svg>

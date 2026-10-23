@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 330" width="400" height="330" fill="none">
+  <defs>
+    <marker id="h-ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#3FB27F"/>
+    </marker>
+  </defs>
+
+  <!-- ===== analysis panel ===== -->
+  <rect x="8" y="6" width="270" height="176" rx="12" fill="#0E2A1F" stroke="#2A7D5A" stroke-width="1.5"/>
+  <text x="24" y="28" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#2A7D5A">root locus</text>
+  <text x="262" y="28" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#3FB27F">K = 4.2</text>
+
+  <!-- axes -->
+  <path d="M 24 104 H 262" stroke="#2A7D5A" stroke-width="1.2"/>
+  <path d="M 150 38 V 170" stroke="#2A7D5A" stroke-width="1.2"/>
+
+  <!-- real-axis locus segment -->
+  <path d="M 176 104 H 222" stroke="#3FB27F" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 64 104 H 84" stroke="#3FB27F" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- complex branches -->
+  <path d="M 84 104 C 84 84, 96 62, 122 50 C 146 39, 170 38, 198 44"
+        stroke="#3FB27F" stroke-width="2.5" stroke-linecap="round" marker-end="url(#h-ar)"/>
+  <path d="M 84 104 C 84 124, 96 146, 122 158 C 146 169, 170 170, 198 164"
+        stroke="#3FB27F" stroke-width="2.5" stroke-linecap="round" marker-end="url(#h-ar)"/>
+  <circle cx="84" cy="104" r="3" fill="#3FB27F"/>
+
+  <!-- poles -->
+  <g stroke="#CFE9DC" stroke-width="2" stroke-linecap="round">
+    <path d="M 60 100 l 8 8 M 68 100 l -8 8"/>
+    <path d="M 100 100 l 8 8 M 108 100 l -8 8"/>
+    <path d="M 172 100 l 8 8 M 180 100 l -8 8"/>
+  </g>
+  <!-- zero -->
+  <circle cx="222" cy="104" r="5" stroke="#CFE9DC" stroke-width="2"/>
+
+  <!-- ===== signal arcs ===== -->
+  <g stroke="#3FB27F" fill="none" stroke-linecap="round">
+    <path d="M 316 24 A 46 46 0 0 1 316 116" stroke-opacity="0.5" stroke-width="2"/>
+    <path d="M 330 10 A 70 70 0 0 1 330 130" stroke-opacity="0.3" stroke-width="2"/>
+    <circle cx="306" cy="70" r="4" fill="#3FB27F" stroke="none"/>
+  </g>
+
+  <!-- ===== bracket ===== -->
+  <path d="M 52 198 V 191 H 325 V 198" stroke="#2A7D5A" stroke-width="1.5" stroke-dasharray="4 4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 188 191 V 182" stroke="#2A7D5A" stroke-width="1.5" stroke-dasharray="4 4" stroke-linecap="round"/>
+
+  <!-- ===== database ===== -->
+  <g stroke="#3FB27F" stroke-width="2" fill="none">
+    <ellipse cx="52" cy="216" rx="36" ry="11"/>
+    <path d="M 16 216 V 272 A 36 11 0 0 0 88 272 V 216"/>
+    <path d="M 16 234 A 36 11 0 0 0 88 234" stroke-opacity="0.45"/>
+    <path d="M 16 253 A 36 11 0 0 0 88 253" stroke-opacity="0.45"/>
+  </g>
+  <text x="52" y="302" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#2A7D5A">MySQL</text>
+
+  <!-- ===== containers ===== -->
+  <g stroke="#3FB27F" stroke-width="2" fill="none">
+    <rect x="120" y="208" width="118" height="24" rx="6"/>
+    <rect x="120" y="240" width="118" height="24" rx="6"/>
+    <rect x="120" y="272" width="118" height="24" rx="6"/>
+  </g>
+  <g fill="#3FB27F">
+    <circle cx="134" cy="220" r="3"/>
+    <circle cx="134" cy="252" r="3"/>
+    <circle cx="134" cy="284" r="3"/>
+  </g>
+  <g fill="#2A7D5A">
+    <rect x="148" y="217" width="52" height="5" rx="2.5"/>
+    <rect x="148" y="249" width="68" height="5" rx="2.5"/>
+    <rect x="148" y="281" width="44" height="5" rx="2.5"/>
+  </g>
+  <text x="179" y="316" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#2A7D5A">Docker</text>
+
+  <!-- ===== code card ===== -->
+  <rect x="258" y="208" width="134" height="88" rx="10" fill="#0E2A1F" stroke="#2A7D5A" stroke-width="1.5"/>
+  <g fill="#3FB27F">
+    <circle cx="272" cy="222" r="3"/>
+    <circle cx="283" cy="222" r="3" fill-opacity="0.6"/>
+    <circle cx="294" cy="222" r="3" fill-opacity="0.3"/>
+  </g>
+  <g fill="#2A7D5A">
+    <rect x="272" y="240" width="40" height="5" rx="2.5" fill="#3FB27F"/>
+    <rect x="318" y="240" width="46" height="5" rx="2.5"/>
+    <rect x="272" y="256" width="62" height="5" rx="2.5"/>
+    <rect x="340" y="256" width="30" height="5" rx="2.5" fill="#3FB27F" fill-opacity="0.6"/>
+    <rect x="272" y="272" width="34" height="5" rx="2.5"/>
+    <rect x="312" y="272" width="52" height="5" rx="2.5"/>
+  </g>
+  <text x="325" y="316" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#2A7D5A">backend</text>
+</svg>

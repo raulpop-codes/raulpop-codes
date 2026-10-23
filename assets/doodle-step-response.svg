@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 150" width="300" height="150" fill="none">
+  <!-- axes -->
+  <path d="M 28 18 V 126 H 288" stroke="#2A7D5A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- setpoint -->
+  <path d="M 28 62 H 284" stroke="#2A7D5A" stroke-width="1.5" stroke-dasharray="5 5" stroke-linecap="round"/>
+  <text x="252" y="56" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#2A7D5A">y∞</text>
+
+  <!-- response curve -->
+  <path d="M 28 126
+           C 46 126, 58 52, 88 34
+           C 110 21, 124 76, 146 74
+           C 164 72, 170 50, 190 52
+           C 206 53, 210 66, 226 64
+           C 244 62, 252 62, 284 62"
+        stroke="#3FB27F" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- overshoot marker -->
+  <circle cx="92" cy="32" r="3.5" fill="#3FB27F"/>
+  <path d="M 92 32 V 62" stroke="#3FB27F" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <text x="100" y="28" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#3FB27F">Mp</text>
+
+  <!-- axis labels -->
+  <text x="276" y="142" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#2A7D5A">t</text>
+  <text x="10" y="24" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#2A7D5A">y</text>
+</svg>
