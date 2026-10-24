@@ -103,7 +103,6 @@ System identification on an active suspension: a second-order model fitted by li
 <p align="center">
   <a href="https://linkedin.com/in/raulpop-dev"><img src="https://img.shields.io/badge/LinkedIn-0E2A1F?style=for-the-badge&logo=linkedin&logoColor=3FB27F"></a>
   <a href="mailto:2005.raul.pop.2005@gmail.com"><img src="https://img.shields.io/badge/Email-0E2A1F?style=for-the-badge&logo=gmail&logoColor=3FB27F"></a>
-  <a href="https://github.com/raulpop-codes"><img src="https://img.shields.io/badge/GitHub-0E2A1F?style=for-the-badge&logo=github&logoColor=3FB27F"></a>
 </p>
 
 <p align="center"><sub>Romanian (native) · English (C1) · German (A2)</sub></p>
