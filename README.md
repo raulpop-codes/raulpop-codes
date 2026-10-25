@@ -55,6 +55,7 @@ Outside work: sci-fi and fantasy, guitar, the gym and cooking.
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-0E2A1F?style=for-the-badge&logo=cloudflare&logoColor=3FB27F)
 ![Oracle Cloud](https://img.shields.io/badge/Oracle%20Cloud-0E2A1F?style=for-the-badge&logo=oracle&logoColor=3FB27F)
 ![Simulink](https://img.shields.io/badge/Simulink-0E2A1F?style=for-the-badge&logo=mathworks&logoColor=3FB27F)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-0E2A1F?style=for-the-badge&logo=githubactions&logoColor=3FB27F)
 
 ---
 
@@ -66,19 +67,19 @@ Live workout-tracking web app, built in a two-person team — Gym and Fitness se
 
 `C#` · `ASP.NET Core` · `React` · `MySQL` · `Redis` · `Docker`
 
-### [Control Systems Visualization Tool](https://github.com/raul-pop-30123/Control-Systems-Visualization-Tool)
+### [Control Systems Visualization Tool](https://github.com/raulpop-codes/Control-Systems-Visualization-Tool) [![CI](https://img.shields.io/github/actions/workflow/status/raulpop-codes/Control-Systems-Visualization-Tool/ci.yml?style=flat-square&label=CI&labelColor=0E2A1F&color=0E2A1F)](https://github.com/raulpop-codes/Control-Systems-Visualization-Tool/actions/workflows/ci.yml)
 
 Desktop tool for analyzing linear control systems: state-space ↔ transfer-function conversion (Faddeev–LeVerrier, controllable canonical form), an interactive root locus with branch tracking and a live gain slider, step and impulse response via fourth-order Runge–Kutta, plus Bode, Nichols and Nyquist views with gain and phase margins. The complex-number, matrix and polynomial layer (Durand–Kerner root-finding) is written from scratch, with no external math dependencies.
 
 `C++17` · `SFML 3` · `Make`
 
-### [Smart Inventory System](https://github.com/raul-pop-30123/Smart-Inventory-system)
+### [Smart Inventory System](https://github.com/raulpop-codes/Smart-Inventory-System) [![CI](https://img.shields.io/github/actions/workflow/status/raulpop-codes/Smart-Inventory-System/ci.yml?style=flat-square&label=CI&labelColor=0E2A1F&color=0E2A1F)](https://github.com/raulpop-codes/Smart-Inventory-System/actions/workflows/ci.yml)
 
 Desktop inventory and crafting manager tracking 600+ resources and items, aggregating requirements across pending blueprints and reporting exactly what's still missing. Layered architecture with the Repository pattern (MySQL and Redis behind the same interfaces) and Observer-driven readiness alarms; auth uses bcrypt hashing, Redis-backed sessions, rate limiting and device lockout.
 
 `Java 21` · `Swing` · `MySQL` · `Redis` · `Docker`
 
-### [Microcontroller Distributor Database](https://github.com/raul-pop-30123/MicrocontrollerFirmDatabase)
+### [Microcontroller Distributor Database](https://github.com/raulpop-codes/MicrocontrollerFirmDatabase) [![CI](https://img.shields.io/github/actions/workflow/status/raulpop-codes/MicrocontrollerFirmDatabase/ci.yml?style=flat-square&label=CI&labelColor=0E2A1F&color=0E2A1F)](https://github.com/raulpop-codes/MicrocontrollerFirmDatabase/actions/workflows/ci.yml)
 
 A 17-table relational schema normalized to 3NF, modeling a distributor's catalog, suppliers, quality testing and sales pipeline, with three many-to-many relationships resolved through junction tables. Business rules are enforced at schema level — PK/FK, UNIQUE, CHECK with REGEXP validation, a BEFORE INSERT trigger and four analytical reporting views.
 
@@ -94,7 +95,7 @@ System identification on an active suspension: a second-order model fitted by li
 
 ## 🎮 And one just for fun
 
-**[Bob Năstrușnicul](https://github.com/raul-pop-30123/BobNastrusnicul)** — a 2D top-down maze game in Unity, my first project in both Unity and C#. Every piece of art (character, environment, UI, all 9 collectible items) is hand-drawn by me in Inkscape, and it has a full working inventory system. Originally a high-school certification project; a playable Windows build is in Releases.
+**[Bob Năstrușnicul](https://github.com/raulpop-codes/BobNastrusnicul)** — a 2D top-down maze game in Unity, my first project in both Unity and C#. Every piece of art (character, environment, UI, all 9 collectible items) is hand-drawn by me in Inkscape, and it has a full working inventory system. Originally a high-school certification project; a playable Windows build is in Releases.
 
 `Unity` · `C#` · `Inkscape`
 
